@@ -1,0 +1,30 @@
+.posts {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.posts li {
+    width: 300px;
+    height: 200px;
+    background-color:bisque;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:fuchsia;
+}
+
+.posts li h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
