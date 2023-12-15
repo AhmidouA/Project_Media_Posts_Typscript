@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Projet MEdia_Posts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est une application React avec des pages pour afficher une liste de publications et les détails d'une publication spécifique.
 
-## Available Scripts
+## Table des matières
 
-In the project directory, you can run:
+- [Structure du Projet](#structure-du-projet)
+- [Pages](#pages)
+- [Composants](#composants)
+- [Dépendances](#dépendances)
+- [Installation](#installation)
+- [Lancement du Projet](#lancement-du-projet)
+- [Contributions](#contributions)
+- [Licence](#licence)
 
-### `npm start`
+## Structure du Projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Le projet est organisé comme suit :
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `src/`
+  - `components/`: Composants réutilisables.
+  - `pages/`: Pages de l'application.
+  - `interfaces/`: Interfaces TypeScript.
+  - `styles/`: Fichiers de styles CSS.
+  - `App.tsx`: Composant racine de l'application.
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Posts`
 
-### `npm run build`
+La page d'accueil qui affiche une liste de publications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Post`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La page de détail qui affiche les informations détaillées d'une publication spécifique.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Composants
 
-### `npm run eject`
+### `Postslist`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Composant qui affiche la liste des publications.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `PostDetail`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Composant qui affiche les détails d'une publication spécifique.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Dépendances
 
-## Learn More
+Les principales dépendances du projet sont :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/): Bibliothèque JavaScript pour la construction d'interfaces utilisateur.
+- [React Router](https://reactrouter.com/): Bibliothèque de routage pour React.
+- [TypeScript](https://www.typescriptlang.org/): Superset de JavaScript avec un typage statique.
+- [Autres dépendances...]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
+
+1. Clonez ce dépôt.
+2. Exécutez `npm install` pour installer les dépendances.
+
+## Lancement du Projet
+
+1. Exécutez `npm start` pour démarrer l'application.
+2. L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
+
+## Contributions
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une pull request ou à signaler des problèmes.
+
+## Licence
+
+Ce projet est sous licence [MIT](LICENSE).
