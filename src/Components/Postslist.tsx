@@ -29,5 +29,4 @@ const Post: React.FC<PostsListProps > = ({allPosts}) => {
     </div>
   )
 }
-
 export default Post
